@@ -49,7 +49,7 @@ Enfin, l'import et l'export de fichier sont rendus possible uniquement si aucune
 
 #### Affichage des données
 
-L'un des principaux avantages de Team-Workload réside dans sa capacité à regrouper les lignes par champ grâce à une fonctionnalité de "glisser-déposer" des en-têtes (par exemple, par discipline > ressource ou par client > projet, etc.). Cela permet à l'utilisateur de visualiser ses données suivant différents axes / regroupements.
+Team-Workload vous permet d'organiser vos données en les regroupant par champ grâce à une fonctionnalité de "glisser-déposer" des en-têtes (par exemple, par discipline > ressource ou par client > projet, etc.). Cette fonctionnalité offre à l'utilisateur la possibilité de visualiser ses données selon divers axes ou regroupements, facilitant ainsi une analyse approfondie et une meilleure compréhension des informations présentées.
 
 Vous pouvez éditer vos données dans les deux modes : avec ou sans regroupement de lignes.
 
