@@ -81,7 +81,7 @@ Team-Workload effectue une série de vérifications pour garantir l'intégrité 
 
 En plus des vérifications de base, Team-Workload effectue une analyse approfondie des données pour générer des informations supplémentaires utiles. Cela inclut :
 
-* **Calcul du nombre de ressources**: En fonction des données fournies (effort et durée), le système calcule le nombre de ressources nominales (si profil linéaire) ou en pointe (si profil non linéaire) nécessaires pour chaque ligne saisie. Par défaut, le nombre de ressources en pointe est arrondi à l'entier supérieur si le profil est non linéaire. Vous pouvez dans ce cas modifier la valeur en pointe à la hausse mais jamais à la baisse.
+* **Calcul du nombre de ressources** : En fonction des données fournies (effort et durée), le système calcule le nombre de ressources nominales (si profil linéaire) ou en pointe (si profil non linéaire) nécessaires pour chaque ligne saisie. Par défaut, le nombre de ressources en pointe est arrondi à l'entier supérieur si le profil est non linéaire. Vous pouvez dans ce cas modifier la valeur en pointe à la hausse mais jamais à la baisse.
 
 * **Profil de charge** : Le système applique par défaut un profil linéaire à chaque ligne (tâche) comme le ferait n'importe quel logiciel de planification. Libre à vous de modifier le profil de charge à votre convenance. "Pic à 20%" signifie que l'activité sera en pointe à 20% de la timeline représentée par les dates de Début et Fin.
 
@@ -95,9 +95,9 @@ Explorez vos données sous forme d'un histogramme de charge, à l'aide des optio
 
 Contrôler l'utilisation de vos ressources sous forme d'une carte thermique. Utilisez les options de filtrage et de personnalisation pour afficher les données souhaitées.
 
-Saisissez le nombre d'effectifs disponibles dans l'onglet *Effectifs*, afin de normaliser la carte thermique.
+Saisissez le nombre d'effectifs disponibles dans l'onglet *Staff*, afin de normaliser la carte thermique. Si un prénom est détecté, alors l'effectif est automatiquement ajusté à l'unité. Les autres valeurs non détectables sont colorées en rouge, et à saisir manuellement.
 
-Le code couleur est par défaut le suivant :
+Le code couleur dans l'onglet *Resource Usage* est par défaut le suivant :
 
 * Vert : Ressource correctement chargée
 * Bleu : Ressource insuffisamment chargée
