@@ -1,4 +1,4 @@
-# Team-Workload (C)
+# Team-Workload
 
 ## Manuel d'Utilisation
 
