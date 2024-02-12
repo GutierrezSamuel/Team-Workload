@@ -83,7 +83,7 @@ En plus des vérifications de base, Team-Workload effectue une analyse approfond
 
 * **Calcul du nombre de ressources** : En fonction des données fournies (effort et durée), le système calcule le nombre de ressources nominales (si profil linéaire) ou en pointe (si profil non linéaire) nécessaires pour chaque ligne saisie. Par défaut, le nombre de ressources en pointe est arrondi à l'entier supérieur si le profil est non linéaire. Vous pouvez dans ce cas modifier la valeur en pointe à la hausse mais jamais à la baisse.
 
-* **Profil de charge** : Le système applique par défaut un profil linéaire à chaque ligne (tâche) comme le ferait n'importe quel logiciel de planification. Libre à vous de modifier le profil de charge à votre convenance. "Pic à 20%" signifie que l'activité sera en pointe à 20% de la timeline représentée par les dates de Début et Fin.
+* **Profil de charge** : Le système applique par défaut un profil linéaire à chaque ligne (tâche) comme le ferait n'importe quel logiciel de planification et calcul le nombre de ressources nominal nécessaire. Libre à vous de modifier le profil de charge à votre convenance. "Pic à 20%" signifie que l'activité sera en pointe à 20% de la timeline représentée par les dates de Début et Fin.
 
 Les alertes peuvent s'afficher dans l'interface utilisateur pour signaler des problèmes ou des erreurs. Suivez les instructions fournies avec l'alerte pour prendre les mesures nécessaires.
 
