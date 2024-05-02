@@ -49,7 +49,7 @@ Enfin, l'import et l'export de fichier sont rendus possible uniquement si aucune
 
 #### Affichage des données
 
-Team-Workload vous permet d'organiser vos données en les regroupant par champ grâce à une fonctionnalité de "glisser-déposer" des en-têtes (par exemple, par discipline > ressource ou par client > projet, etc.). Cette fonctionnalité offre à l'utilisateur la possibilité de visualiser ses données selon divers axes ou regroupements, facilitant ainsi une analyse approfondie et une meilleure compréhension des informations présentées.
+L'un des principaux avantages de Team-Workload réside dans sa capacité à regrouper les lignes par champ grâce à une fonctionnalité de "glisser-déposer" des en-têtes (par exemple, par discipline > ressource ou par client > projet, etc.). Cela permet à l'utilisateur de visualiser ses données suivant différents axes / regroupements.
 
 Vous pouvez éditer vos données dans les deux modes : avec ou sans regroupement de lignes.
 
@@ -83,7 +83,7 @@ En plus des vérifications de base, Team-Workload effectue une analyse approfond
 
 * **Calcul du nombre de ressources** : En fonction des données fournies (effort et durée), le système calcule le nombre de ressources nominales (si profil linéaire) ou en pointe (si profil non linéaire) nécessaires pour chaque ligne saisie. Par défaut, le nombre de ressources en pointe est arrondi à l'entier supérieur si le profil est non linéaire. Vous pouvez dans ce cas modifier la valeur en pointe à la hausse mais jamais à la baisse.
 
-* **Profil de charge** : Le système applique par défaut un profil linéaire à chaque ligne (tâche) comme le ferait n'importe quel logiciel de planification et calcul le nombre de ressources nominal nécessaire. Libre à vous de modifier le profil de charge à votre convenance. "Pic à 20%" signifie que l'activité sera en pointe à 20% de la timeline représentée par les dates de Début et Fin.
+* **Profil de charge** : Le système applique par défaut un profil linéaire à chaque ligne (tâche) comme le ferait n'importe quel logiciel de planification. Libre à vous de modifier le profil de charge à votre convenance. "Pic à 20%" signifie que l'activité sera en pointe à 20% de la timeline représentée par les dates de Début et Fin.
 
 Les alertes peuvent s'afficher dans l'interface utilisateur pour signaler des problèmes ou des erreurs. Suivez les instructions fournies avec l'alerte pour prendre les mesures nécessaires.
 
@@ -93,16 +93,19 @@ Explorez vos données sous forme d'un histogramme de charge, à l'aide des optio
 
 ### 7. Module Heatmap
 
-Contrôler l'utilisation de vos ressources sous forme d'une carte thermique. Utilisez les options de filtrage et de personnalisation pour afficher les données souhaitées.
-
-Saisissez le nombre d'effectifs disponibles dans l'onglet *Staff*, afin de normaliser la carte thermique. Si un prénom est détecté, alors l'effectif est automatiquement ajusté à l'unité. Les autres valeurs non détectables sont colorées en rouge, et à saisir manuellement.
+Contrôlez l'utilisation de vos ressources sous forme d'une carte thermique. Utilisez les options de filtrage et de personnalisation pour afficher les données souhaitées.
 
 Le code couleur dans l'onglet *Resource Usage* est par défaut le suivant :
 
-* Vert : Ressource correctement chargée
-* Bleu : Ressource insuffisamment chargée
-* Rouge : Ressource en surchage
+* Vert : Ressource correctement chargée (taux d'utilisation = 100%)
+* Bleu : Ressource insuffisamment chargée (taux d'utilisation < 100%)
+* Rouge : Ressource en surchage (taux d'utilisation > 100%)
 
+Ajustez le taux de disponibilité des effectifs dans l'onglet *Staff*, afin de normaliser la carte thermique.
+
+Les effectifs saisis dans le module *Plan* sont automatiquememt intégrés à la carte thermique. L'utilisateur peut en ajouter d'autres (i.e. non chargées), de manière à les faire apparaître sur la carte thermique.
+
+Si un prénom est détecté, alors l'effectif est par défaut ajusté à l'unité (1 = une ressource full-time). Les effectifs ne correspondant pas à des prénoms doivent être saisis manuellement et sont mis en évidence en rouge.
 
 ### 8. Module Follow-up
 
